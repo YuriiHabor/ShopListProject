@@ -1,7 +1,7 @@
 package com.company.shoplistproject.domain
 
-class RemoveShopItemUseCase {
-    fun removeShopListItem(shopListItem: ShopListItem) {
-        TODO()
+class RemoveShopItemUseCase(private val shopListRepository: ShopListRepository) {
+    fun removeShopItem(shopItem: ShopItem) {
+        shopListRepository.removeShopItem(shopItem)
     }
 }

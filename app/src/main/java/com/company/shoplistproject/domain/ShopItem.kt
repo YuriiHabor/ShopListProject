@@ -1,6 +1,6 @@
 package com.company.shoplistproject.domain
 
- data class ShopListItem(
+ data class ShopItem(
      val id: Int,
      val name: String,
      val count: Int,
